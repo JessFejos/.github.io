@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+* {
+box-sizing: border-box;
+}
+body {
+font-family: 'Raleway';
+text-align: center;
+}
+nav {
+	font-family:"Raleway";
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 16px;
+}
+nav a{
+	text-transform: uppercase;
+	padding: 20px 50px;
+	color: #7B98AA
+}
+header {
+	font-family:"Raleway";
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	background-image: url('../images/blog_header_bg.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	padding-top: 100px;
+	margin-bottom: 50px;
+}
+h1{
+	font-family:"Raleway";
+	font-size:37;
+	font color: white;
+	margin-bottom: 40px;
+}
+h1 a{
+	color:white;
+}
+h2{
+	font-family:"Raleway";
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 23px;
+	text-align: left;
+	color: #44545E;
+	margin-bottom: 20px;
+}
+h3{
+	font-family:"Raleway";
+	font-weight:400;
+	font-size: 18px;
+	text-align: left;
+	color: #44545E;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+h4{
+	font-family:"Lato";
+	font-weight: 400;
+	font-size: 15px;
+	text-align: left;
+	color: #44545E;
+	margin-bottom: 30px;
+}
+h5{
+	font-family:"Lato";
+font-weight: 400;
+font-size: 15px;
+text-align:center;
+
+}
+p{
+	font-family:"Lato";
+	font-weight: 400;
+	font-size: 15px;
+	text-align:left;
+	color: #44545E;
+	margin-bottom: 30px;
+}
+a{
+	font-family:"Raleway";
+	font-weight: 600;
+	padding: 3px 15px;
+	display: inline-block;
+	text-align: left;
+
+}
+img {
+	max-width: 100%
+
+}
+ul{
+	line-height: 12px
+	text-align: left;
+}
+li{
+	text-align: left;
+	color:#44545E;
+}
+li a{
+	font-family:"Raleway";
+	font-weight: 400;
+	font-size: 15px;
+	line-height:15px;
+	color: #7b98AA;
+	text-decoration: none;
+}
+aside{
+	padding-right: 35px;
+	padding-top: 50px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+section {
+	padding: 0 75px;
+	text-align: left;
+}
+hr{
+	display: block;
+	height: 1px;
+	border:0;
+	border-top: 1px solid #ccc;
+	padding:0;
+}
+footer {
+	font-family:"Lato";
+	font-weight: 400;
+	font-size: 15px;
+	text-align: center;
+	background-color: #CDF3F6;
+	overflow: auto;
+	padding: 40px 20px
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-columns-gap: 30px;
+}
+.media a {
+	font-size: 30px;
+	display: inline-block;
+	color: #44545E;
+}
+.listcontainer{
+	text-align: left;
+	margin:0px;
+}
