@@ -1,0 +1,58 @@
+
+/* --------------------------------------------------------------------------
+Base styles:
+----------------------------------------------------------------------------- */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+header {
+  background-image: url('../img/heading_opm_mp.jpg');
+  background-size: cover;
+	background-position: center;
+	height:350px;
+	border-bottom: 10px;
+	margin-bottom: 40px;
+}
+H1{
+  font-family:'Oswald';
+  font-size:48px;
+  line-height:48px;
+  font-weight:700;
+  letter-spacing:2px
+  color:#gray;
+}
+
+H2{
+  font-family:'Oswald';
+  font-size:32px;
+  line-height:40px;
+  font-weight:300;
+  color:#434343;
+  text-decoration-line:
+}
+H6{
+  font-family:'lato';
+  font-size:16px;
+  line-height:20px;
+  font-weight:400;
+  color:black;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
