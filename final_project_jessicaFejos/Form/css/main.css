@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+Body{
+  font-size: 16px;
+  font-family: "Lato";
+  background:red; /* Stevens red look up color code */
+}
+h1{
+  font-family:'Oswald';
+  font-size:48px;
+  line-height:48px;
+  font-weight:700;
+  letter-spacing:2px
+  color:gray;/* stevens dark gray look up color code */
+  text-align:center;
+}
+
+form {
+  background-color: white;
+	margin: 30px auto;
+	max-width: 700px;
+	padding: 20px;
+	border-radius: 3px;
+}
+
+input, select, textarea {
+    width: 100%; /* Full width */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+}
+
+input{
+	text-align: left;
+}
+
+input[type=submit]:hover {
+    background-color:red; /* stevens red look up color code */
+}
+
+/* Add a background color and some padding around the form */
+button{
+background-color:red;
+color:white:
+text-align: center;
+}

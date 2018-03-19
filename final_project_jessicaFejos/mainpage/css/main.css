@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+H1{
+  font-family:'Oswald';
+  font-size:48px;
+  line-height:48px;
+  font-weight:700;
+  letter-spacing:2px
+  color:#gray;
+  text-align:center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+H2{
+  font-family:'Oswald';
+  font-size:32px;
+  line-height:40px;
+  font-weight:300;
+  color:#434343;
+  text-decoration-line:
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+H6{
+  font-family:'lato';
+  font-size:16px;
+  line-height:26px;
+  font-weight:400;
+  color:black;
+  margin-bottom: 10px;
+}
+P{
+  font-family:'Oswald';
+  font-size:32px;
+  line-height:40px;
+  font-weight:300;
+  color:white;
+  text-decoration-line:
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.wrap-grid-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap:5px;
+	margin-bottom: 70px;
+	margin-left: 150px;
+	margin-right: 90px;
+}
+header {
+  background-image: url('../img/heading_opm_mp.jpg');
+  background-size: cover;
+	background-position: center;
+	height:300px;
+}
+nav {
+  width: 250px;
+  height: 100%;
+  background-color: #a32638;
+}
+
+nav h2 {
+  color: white;
+  padding: 1.5rem 1rem 0;
+  /*position: fixed;*/
+}
+
+li {
+  border-top: 1px solid rgba(0,0,0,0.2);
+  list-style: none;
+  -webkit-transition: all 300ms ease-in-out;
+          transition: all 300ms ease-in-out;
+}
+
+li:hover {
+  background-color: #9a989a;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-family:'lato';
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 16px;
+  padding: 14px;
+  display: block;
+}
+
+nav li:first-child {
+    margin-top: 2em;
+
+}
+
+main{
+  width:900px;
+  background-color: white;
+}
+
+/* form {
+  text-align:center;
+  color:white;
+  background-color:blue;
+  font-family: Lora;
+  border: 2px solid blue;
+  width: 700px;
+  margin: 0 auto;
+  padding:30px;
+}
+.Request {
+position:fixed;
+top:35px;
+margin: 0 auto;
+opacity: 0;
+
+}
+  */
+
+/* .hamburger{
+	background-color: black;
+	font-size: 27px;
+	padding: 10px 30px;
+  display: none;
+}
+@media screen and (max-width: 600px){
+ section{
+    grid-template-columns: 1fr;
+  }
+	main{
+		 grid-template-columns: 1fr;
+	 }
+}
+@media screen and (max-width:600px) {
+  h1 {
+    font-size: 30px;
+  }
+@media screen and (max-width:600px) {
+  .hamburger {
+    display:block;
+  }
+} */
