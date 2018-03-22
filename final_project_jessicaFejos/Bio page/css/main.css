@@ -26,3 +26,20 @@ H6{
   font-weight:400;
   color:black;
 }
+img{
+  display: block;
+  max-width: 100%;
+  height:auto;
+  vertical-align: middle;
+  boarder: 0;
+}
+
+.header{
+}
+.container-wrapper1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:30px;
+	margin: 70px auto;
+
+}

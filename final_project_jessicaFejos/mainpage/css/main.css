@@ -63,6 +63,8 @@ nav {
   width: 250px;
   height: 100%;
   background-color: #a32638;
+  position: sticky;
+  top: 0;
 }
 
 nav h2 {

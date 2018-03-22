@@ -1,0 +1,76 @@
+/*@import url('https://fonts.googleapis.com/css */
+* {
+  box-sizing: border-box;
+}
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+Body{
+  font-size: 16px;
+  font-family: "Lato";
+  color:red; /* Stevens red look up color code */
+  width: 800px;
+  margin: auto;
+  text-align: left;
+}
+h1{
+  font-family:'Oswald';
+  font-size:48px;
+  line-height:48px;
+  font-weight:700;
+  letter-spacing:2px
+  color:gray;/* stevens dark gray look up color code */
+  text-align:center;
+}
+
+section {
+  margin-top: 40px;
+}
+
+/* img {
+  display: block;
+  margin: 30px auto;
+} */
+
+button {
+  font-size: 16px;
+  font-family: "Lato";
+  color:red; /* Stevens red look up color code */
+  font-style: italic;
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  cursor: pointer;
+  /*text-transform: uppercase;
+  border: 0;
+  border-radius: 4px;
+  outline: 0;
+  background-color: #f78fa7;
+  box-shadow: inset 0 -3px rgba(0, 0, 0, .15);*/
+}
+.dropdowns {
+ min-height: 280px;
+}
+
+.dropdowns ul {
+  overflow: hidden;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: -3px;
+  padding: 0;
+  border: 2px solid #dfdfdf;
+}
+
+
+.dropdowns li {
+  padding: 10px;
+}
+
+.dropdowns li:hover {
+  background-color: #dfdfdf;
+}

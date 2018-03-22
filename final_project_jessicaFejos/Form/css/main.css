@@ -1,10 +1,19 @@
 * {
   box-sizing: border-box;
 }
+body,form,footer{
+  display: block;
+}
+
 Body{
   font-size: 16px;
   font-family: "Lato";
-  background:red; /* Stevens red look up color code */
+  background-color:#fff;
+}
+main{
+  background-color: #A32638;
+  width: 600px;
+  margin: 0 auto;
 }
 h1{
   font-family:'Oswald';
@@ -12,40 +21,86 @@ h1{
   line-height:48px;
   font-weight:700;
   letter-spacing:2px
-  color:gray;/* stevens dark gray look up color code */
-  text-align:center;
+  color:#fff;
+  text-align: center;
+}
+H3{
+  font-family:'lato';
+  font-size:28px;
+  line-height:32px;
+  font-weight:300;
+  color:#fff;
+  text-align: center;
+}
+
+P{
+font-family:'lato';
+font-size:16px;
+line-height:26px;
+font-weight:400;
+color:#fff;;
+margin-bottom: 10px;
+text-align: center;
 }
 
 form {
-  background-color: white;
-	margin: 30px auto;
-	max-width: 700px;
-	padding: 20px;
+	margin: 50px auto;
+	max-width: 500px;
 	border-radius: 3px;
 }
 
-input, select, textarea {
+form input {
+  transition: .25s ease;
+  border: 2px solid transparent;
+}
+form label {
+  margin-top: 15px;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+form input:focus {
+  outline: 1px solid gray;
+}
+
+input, textarea {
+    border: 3px solid gray; /* stevens light gray */
     width: 100%; /* Full width */
-    padding: 20px;
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
+}
 
+
+textarea {
+	height: 130px;
 }
 
 input{
-	text-align: left;
+	border: 3px solid gray;
 }
 
-input[type=submit]:hover {
-    background-color:red; /* stevens red look up color code */
+input:hover {
+    transform: trans /* stevens red look up color code */
 }
-
-/* Add a background color and some padding around the form */
-button{
-background-color:red;
-color:white:
-text-align: center;
+.error {
+	border: 2px solid #FF3846;
+}
+button {
+	background-color: #005EC8;
+	border: 0;
+	color: white;
+	font-size: 18px;
+	display: block;
+	outline: 0;
+	padding: 8px 10px;
+	width: 100%;
+	margin-top: 20px;
+	transition: transform .3s ease;
+}
+button:hover {
+	transform: translateY(-2px);
 }
